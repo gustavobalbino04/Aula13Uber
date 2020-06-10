@@ -2,8 +2,9 @@ namespace Aula13Uber
 {
     public class Pagamento
     {
-        public dateTime Data { get; set; 
+       // private dateTime Data { get; set; }
+        private string status { get; set; }
 
-        public string status { get; set; }
+       
     }
 }
